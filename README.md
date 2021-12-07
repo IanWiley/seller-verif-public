@@ -85,6 +85,7 @@ Choose profile > default
 amplify push
 
 Do you want to update code for your updated GraphQL API> Yes
+
 ? Do you want to generate GraphQL statements (queries, mutations and subscription) based on your schema types?
 This will overwrite your current graphql queries, mutations and subscriptions> Yes
 
