@@ -124,7 +124,7 @@ amplify publish
     - Would suggest rectifying this by detecting whether Drivers License upload actually is a DriversLicense
     - Could possibly use DetectLabels Rekognition function
 - App.js functions should be modularized to simplify code
-- Rekognition labelling count be used further
+- Rekognition labelling could be used for verifying the contents of a listing's images or videos
 
 ## Appendix/References
 
