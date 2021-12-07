@@ -1,0 +1,13 @@
+{
+  "resourceName": "sellerVerifV1",
+  "policyUUID": "c22aa42f",
+  "bucketName": "sellerverifv12c6a5025ddd84619aead599c34ce153e",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
