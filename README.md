@@ -86,7 +86,7 @@ amplify push
 
 Do you want to update code for your updated GraphQL API> Yes
 
-? Do you want to generate GraphQL statements (queries, mutations and subscription) based on your schema types?
+Do you want to generate GraphQL statements (queries, mutations and subscription) based on your schema types? 
 This will overwrite your current graphql queries, mutations and subscriptions> Yes
 
 ### Create .env file in root directory
@@ -99,7 +99,9 @@ REACT_APP_AWS_SECRET_ACCESS_KEY = "SECRET_KEY_IN_QUOTES"
 ### Manual Hosting
 
 amplify hosting add
+
 ? Select the plugin module to execute Hosting with Amplify Console> (Managed hosting with custom domains, Continuous deployment)
+
 ? Choose a type> Manual deployment
 
 amplify publish
@@ -121,14 +123,18 @@ amplify publish
 This is where I'll list out the reference material that was the most helpful in completing this project
 
 This tutorial is what the project was most heavily adapted from.
+
 https://dev.to/dabit3/graphql-tutorial-how-to-manage-image-file-uploads-downloads-with-aws-appsync-aws-amplify-hga
 
 Official documentation for 'Rekognition Client - AWS SDK for JavaScript v3'.
+
 https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-rekognition/index.html
 https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-rekognition/classes/comparefacescommand.html
 
 Up to date documentation on GraphQL Schema and Primary Key behavior.
+
 https://aws.amazon.com/blogs/mobile/aws-amplify-announces-the-new-graphql-transformer-v2-more-feature-rich-flexible-and-extensible/
 
 Up to date Amplify Authenticator (Cogntio) documentation. 
+
 https://ui.docs.amplify.aws/components/authenticator
