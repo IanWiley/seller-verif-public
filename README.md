@@ -76,7 +76,7 @@ type S3Object {
 
 ## Installation
 
-amplify init --app https://github.com/IanWiley/seller-verif-v1.git
+amplify init --app https://github.com/IanWiley/seller-verif-public.git
 
 Select the authentication method you want to use > AWS profile
 
