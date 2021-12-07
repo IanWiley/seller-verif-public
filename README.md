@@ -97,6 +97,8 @@ This will overwrite your current graphql queries, mutations and subscriptions> Y
 
 ### Create .env file in root directory
 
+Note: the credentials setup used for the Rekognition client can be accessed if the .env file is on a public Github Repo. Keep the repo private or manually deploy the project. 
+
 ```
 REACT_APP_AWS_ACCESS_KEY_ID = "ACCESS_KEY_IN_QUOTES"
 REACT_APP_AWS_SECRET_ACCESS_KEY = "SECRET_KEY_IN_QUOTES"
