@@ -76,18 +76,24 @@ type S3Object {
 
 ## Installation
 
+```
 amplify init --app https://github.com/IanWiley/seller-verif-public.git
+```
 
+```
 Select the authentication method you want to use > AWS profile
 
 Choose profile > default
+```
 
+```
 amplify push
 
 Do you want to update code for your updated GraphQL API> Yes
 
 Do you want to generate GraphQL statements (queries, mutations and subscription) based on your schema types? 
 This will overwrite your current graphql queries, mutations and subscriptions> Yes
+```
 
 ### Create .env file in root directory
 
@@ -98,6 +104,7 @@ REACT_APP_AWS_SECRET_ACCESS_KEY = "SECRET_KEY_IN_QUOTES"
 
 ### Manual Hosting
 
+```
 amplify hosting add
 
 ? Select the plugin module to execute Hosting with Amplify Console> (Managed hosting with custom domains, Continuous deployment)
@@ -105,6 +112,7 @@ amplify hosting add
 ? Choose a type> Manual deployment
 
 amplify publish
+```
 
 ## Future Considerations for Implementation
 
